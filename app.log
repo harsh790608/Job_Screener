@@ -1,0 +1,145 @@
+2025-10-22 14:18:43,286 [INFO] Screening started.
+2025-10-22 14:18:44,781 [INFO] LLM and embeddings initialized successfully.
+2025-10-22 14:18:44,838 [INFO] Extracted text from PDF: Senior_Software_Developer_Resume.pdf
+2025-10-22 14:18:44,861 [INFO] Extracted text from PDF: Business_Analyst.pdf
+2025-10-22 14:18:44,886 [INFO] Extracted text from PDF: Data_Engineer.pdf
+2025-10-22 14:18:44,912 [INFO] Extracted text from PDF: General_Physician.pdf
+2025-10-22 14:19:01,577 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:04,610 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:07,862 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:09,940 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:14,581 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:15,279 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:16,812 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:33,260 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:41,581 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:19:43,335 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:19:43,337 [INFO] Processed General_Physician.pdf successfully.
+2025-10-22 14:20:07,342 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:20:08,649 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:20:08,657 [INFO] Processed Business_Analyst.pdf successfully.
+2025-10-22 14:20:12,587 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:20:12,908 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:20:12,915 [INFO] Processed Data_Engineer.pdf successfully.
+2025-10-22 14:20:15,661 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:20:15,983 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:20:15,986 [INFO] Processed Senior_Software_Developer_Resume.pdf successfully.
+2025-10-22 14:20:16,324 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:20:16,331 [INFO] FAISS similarity search completed.
+2025-10-22 14:20:16,587 [INFO] Screening process completed successfully.
+2025-10-22 14:23:41,150 [INFO] Screening started.
+2025-10-22 14:23:42,583 [INFO] LLM and embeddings initialized successfully.
+2025-10-22 14:23:42,630 [INFO] Extracted text from PDF: Senior_Software_Developer_Resume.pdf
+2025-10-22 14:23:42,752 [INFO] Extracted text from PDF: Business_Analyst.pdf
+2025-10-22 14:23:42,778 [INFO] Extracted text from PDF: Data_Engineer.pdf
+2025-10-22 14:23:42,814 [INFO] Extracted text from PDF: General_Physician.pdf
+2025-10-22 14:23:56,545 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:23:59,125 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:07,745 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:17,387 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:17,679 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:19,565 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:26,836 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:42,069 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:51,811 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:53,374 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:24:53,378 [INFO] Processed Business_Analyst.pdf successfully.
+2025-10-22 14:24:53,440 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:53,819 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:24:53,827 [INFO] Processed Data_Engineer.pdf successfully.
+2025-10-22 14:24:55,520 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:24:55,856 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:24:55,860 [INFO] Processed General_Physician.pdf successfully.
+2025-10-22 14:25:16,175 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:25:17,330 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:25:17,334 [INFO] Processed Senior_Software_Developer_Resume.pdf successfully.
+2025-10-22 14:25:17,657 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:25:17,659 [INFO] FAISS similarity search completed.
+2025-10-22 14:25:17,750 [INFO] Screening process completed successfully.
+2025-10-22 14:27:17,942 [INFO] Screening started.
+2025-10-22 14:27:19,561 [INFO] LLM and embeddings initialized successfully.
+2025-10-22 14:27:19,606 [INFO] Extracted text from PDF: Senior_Software_Developer_Resume.pdf
+2025-10-22 14:27:19,682 [INFO] Extracted text from PDF: Business_Analyst.pdf
+2025-10-22 14:27:19,697 [INFO] Extracted text from PDF: Data_Engineer.pdf
+2025-10-22 14:27:19,719 [INFO] Extracted text from PDF: General_Physician.pdf
+2025-10-22 14:27:31,215 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:27:34,923 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:27:40,979 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:27:49,070 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:27:49,446 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:27:56,872 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:07,249 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:08,475 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:20,629 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:22,139 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:28:22,146 [INFO] Processed Business_Analyst.pdf successfully.
+2025-10-22 14:28:25,224 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:25,509 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:28:25,513 [INFO] Processed General_Physician.pdf successfully.
+2025-10-22 14:28:31,363 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:32,723 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:28:32,726 [INFO] Processed Senior_Software_Developer_Resume.pdf successfully.
+2025-10-22 14:28:45,648 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 14:28:46,883 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:28:46,886 [INFO] Processed Data_Engineer.pdf successfully.
+2025-10-22 14:28:47,198 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 14:28:47,202 [INFO] FAISS similarity search completed.
+2025-10-22 14:28:47,241 [INFO] Screening process completed successfully.
+2025-10-22 18:41:35,522 [INFO] Screening started.
+2025-10-22 18:41:37,515 [INFO] LLM and embeddings initialized successfully.
+2025-10-22 18:41:37,571 [INFO] Extracted text from PDF: Senior_Software_Developer_Resume.pdf
+2025-10-22 18:41:37,627 [INFO] Extracted text from PDF: Business_Analyst.pdf
+2025-10-22 18:41:37,650 [INFO] Extracted text from PDF: Data_Engineer.pdf
+2025-10-22 18:41:37,671 [INFO] Extracted text from PDF: General_Physician.pdf
+2025-10-22 18:41:47,538 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:41:51,041 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:41:57,105 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:41:57,845 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:41:59,065 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:04,184 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:12,068 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:14,660 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:15,967 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 18:42:15,971 [INFO] Processed General_Physician.pdf successfully.
+2025-10-22 18:42:23,160 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:24,261 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 18:42:24,262 [INFO] Processed Data_Engineer.pdf successfully.
+2025-10-22 18:42:24,263 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:33,714 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:34,882 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 18:42:34,882 [INFO] Processed Senior_Software_Developer_Resume.pdf successfully.
+2025-10-22 18:42:44,365 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 18:42:45,365 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 18:42:45,367 [INFO] Processed Business_Analyst.pdf successfully.
+2025-10-22 18:42:45,686 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 18:42:45,697 [INFO] FAISS similarity search completed.
+2025-10-22 18:42:45,904 [INFO] Screening process completed successfully.
+2025-10-22 19:05:26,954 [INFO] Screening started.
+2025-10-22 19:05:34,699 [INFO] LLM and embeddings initialized successfully.
+2025-10-22 19:05:34,743 [INFO] Extracted text from PDF: Senior_Software_Developer_Resume.pdf
+2025-10-22 19:05:34,786 [INFO] Extracted text from PDF: Business_Analyst.pdf
+2025-10-22 19:05:34,840 [INFO] Extracted text from PDF: Data_Engineer.pdf
+2025-10-22 19:05:34,928 [INFO] Extracted text from PDF: General_Physician.pdf
+2025-10-22 19:05:42,995 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:05:45,689 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:05:47,694 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:05:47,797 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:05:53,287 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:05:58,399 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:00,659 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:03,859 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:08,701 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:10,243 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 19:06:10,250 [INFO] Processed General_Physician.pdf successfully.
+2025-10-22 19:06:20,431 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:21,688 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 19:06:21,689 [INFO] Processed Business_Analyst.pdf successfully.
+2025-10-22 19:06:22,287 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:22,609 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 19:06:22,632 [INFO] Processed Data_Engineer.pdf successfully.
+2025-10-22 19:06:29,121 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/gpt-5-mini-2-dk/chat/completions?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-10-22 19:06:30,357 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 19:06:30,419 [INFO] Processed Senior_Software_Developer_Resume.pdf successfully.
+2025-10-22 19:06:30,829 [INFO] HTTP Request: POST https://instance-rg-agentic-ai-training-dk.openai.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-22 19:06:30,837 [INFO] FAISS similarity search completed.
+2025-10-22 19:06:31,205 [INFO] Screening process completed successfully.
